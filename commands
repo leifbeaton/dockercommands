@@ -1,0 +1,2 @@
+Clear docker logs for container:
+sudo sh -c 'echo "" > $(docker inspect --format="{{.LogPath}}" containername)'
